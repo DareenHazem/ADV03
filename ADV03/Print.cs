@@ -32,5 +32,23 @@ namespace ADV03
                 Console.WriteLine();
             }
         }
+
+        public static void PrintDict<T1, T2>(Dictionary<T1, T2> dict)
+        {
+            if (dict is not null && dict.Count > 0)
+            {
+                Console.Write($"Keys: ");
+                foreach (KeyValuePair<T1, T2> item in dict)
+                {
+                    Console.Write($"{item.Key} ");
+                }
+                Console.WriteLine();
+                Console.Write($"Values: ");
+                foreach (KeyValuePair<T1, T2> item in dict)
+                {
+                    Console.Write($"{item.Value} ");
+                }
+            }
+        }
     }
 }

@@ -52,6 +52,39 @@ namespace ADV03
             //playersScore.Remove(200);
             //Print.PrintDictionary("After removing key 200", playersScore);
             #endregion
+
+            #region Exercise 3: Phone Book
+            ////1-
+            //Dictionary<string, int> contacts = new()
+            //{
+            //    ["Ahmed"] = 01023585,
+            //    ["Sara"] = 01147896,
+            //    ["Ali"] = 0107895,
+            //    ["Mona"] = 01258943
+            //};
+            ////2-
+            //contacts["Dareen"] = 01245783;
+            ////3-
+            //try
+            //{
+            //    contacts.Add("Dareen", 01245783);
+            //}
+            //catch (Exception ex) {
+            //    Console.WriteLine(ex.Message);
+            //}
+            ////4-
+            //Console.WriteLine($"TryAdd: {contacts.TryAdd("Dareen", 01245783)}");
+            ////5-
+            //Console.WriteLine($"Does it contains the key 'Mahmoud'? {contacts.ContainsKey("Mahmoud")}");
+            //Console.WriteLine($"Does it contains the value '01234567'? {contacts.ContainsValue(01234567)}");
+            ////6-
+            //if (contacts.TryGetValue("Mahmoud", out int phone))
+            //    Console.WriteLine(phone);
+            //else
+            //    Console.WriteLine("Not Found");
+            ////7-
+            //Print.PrintDict(contacts);
+            #endregion
         }
     }
 }
