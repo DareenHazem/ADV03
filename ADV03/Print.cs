@@ -50,5 +50,18 @@ namespace ADV03
                 }
             }
         }
+
+        public static void PrintHashSet<T>(String Label, HashSet<T> set)
+        {
+            if (set is not null && set.Count > 0 && Label is not null)
+            {
+                Console.Write($"{Label}: ");
+                foreach (T item in set)
+                {
+                    Console.Write($"{item} ");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }
