@@ -139,6 +139,28 @@ namespace ADV03
             ////4-
             //Console.WriteLine($"Dequeue on empty Queue: {queue.TryDequeue(out string? val)}");
             #endregion
+
+            #region Exercise 6: Browser History (Undo)
+            //1-
+            //Stack<string> Urls = new Stack<string>();
+            //Urls.Push("google.com");
+            //Urls.Push("github.com");
+            //Urls.Push("stackoverflow.com");
+            //Urls.Push("youtube.com");
+            //Urls.Push("claude.ai");
+            ////2-
+            //Console.WriteLine($"Peek: {Urls.Peek()}");
+            ////3-
+            //Console.WriteLine($"Pop: {Urls.Pop()}");
+            //Console.WriteLine($"Pop: {Urls.Pop()}");
+            //Console.WriteLine($"Pop: {Urls.Pop()}");
+            ////4-
+            //Console.WriteLine($"The current page: {Urls.Peek()}");
+            ////5-
+            //Console.WriteLine($"Pop: {Urls.Pop()}");
+            //Console.WriteLine($"Pop: {Urls.Pop()}"); // Now this is an empty stack
+            //Console.WriteLine($"Pop on empty stack: {Urls.TryPop(out string? result)}");
+            #endregion
         }
     }
 }
