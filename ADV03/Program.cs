@@ -97,11 +97,11 @@ namespace ADV03
             ////3-
             //Console.WriteLine($"Emails Count:{emails.Count}");
             ////It will be 2 because add in the constructor StringComparer that will ignore the capital case
-            
+
             ////4-
             //HashSet<int> A = [ 1, 2, 3, 4, 5 ];
             //HashSet<int> B = [ 4, 5, 6, 7, 8 ];
-            
+
             ////5-
             //A.UnionWith(B);
             //Print.PrintHashSet("UnionWith", A);
@@ -115,6 +115,29 @@ namespace ADV03
             ////6-
             //HashSet<int> C = [1, 2];
             //Console.WriteLine($"Check if (1,2) is a subset of Set A: { A.IsSubsetOf(C) }");
+            #endregion
+
+            #region Exercise 5: Print Queue Simulator
+            //Queue<string> queue = new Queue<string>();
+            //queue.Enqueue("Report.pdf");
+            //queue.Enqueue("Invoice.pdf");
+            //queue.Enqueue("Letter.docx");
+            //queue.Enqueue("Resume.pdf");
+            //queue.Enqueue("Photo.jpg");
+            ////1-
+            //Console.WriteLine($"Count: {queue.Count}");
+            //Print.PrintQueue("Queue",queue);
+
+            ////2-
+            //Console.WriteLine($"First Element: {queue.Peek()}");
+
+            ////3-
+            //while (queue.Count > 0) {
+            //    Console.WriteLine($"Printing[{queue.Dequeue()}]");
+            //}
+
+            ////4-
+            //Console.WriteLine($"Dequeue on empty Queue: {queue.TryDequeue(out string? val)}");
             #endregion
         }
     }

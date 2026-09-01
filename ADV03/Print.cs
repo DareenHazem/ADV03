@@ -63,5 +63,18 @@ namespace ADV03
                 Console.WriteLine();
             }
         }
+
+        public static void PrintQueue<T>(String Label, Queue<T> queue)
+        {
+            if (queue is not null && queue.Count > 0 && Label is not null)
+            {
+                Console.Write($"{Label}: ");
+                foreach (T item in queue)
+                {
+                    Console.Write($"{item} ");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }
